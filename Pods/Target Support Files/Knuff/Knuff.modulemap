@@ -1,0 +1,6 @@
+framework module Knuff {
+  umbrella header "Knuff-umbrella.h"
+
+  export *
+  module * { export * }
+}
