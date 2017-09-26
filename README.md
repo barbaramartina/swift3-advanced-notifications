@@ -1,13 +1,14 @@
 # Advanced Notifications in Swift 3
 
-### Find more information in my blog [Lady&Tech](http://www.barbararodeker.com/ladyandtech/?p=100)
+### Find more information 
+In my blog [Lady&Tech](http://www.barbararodeker.com/ladyandtech/?p=100)
 
-##Intro
+## Intro
 With iOS 10 release, this year in September, 2 new frameworks came to power-up notifications. UserNotifications and UserNotificationsUI.You will find an example implementation in this repository. Based on that I've written the article with further explanations.
 
 ### The project needs to be adjusted to your own credentials, team and entitlements in order to work on devices and be tested. You can use it as a guide for your own requirements and copy paste any part of the code if it's useful to you.
 
-##How things work?
+## How things work?
 
 ### For a quick reference about how the notification cycle will work for advanced notifications I have created the following graphic.
 
@@ -24,7 +25,7 @@ The notification payload could have (not mandatory) a category, when the user fo
 After all the cycle your custom UI for the advanced notification will be presented.
 
 
-##What needs to be implemented?
+## What needs to be implemented?
 
 1. Create a service extension target in your app
 2. Create a content extension target in your app
@@ -38,5 +39,5 @@ After all the cycle your custom UI for the advanced notification will be present
 10. Handle actions in your content extension if required
 11. DEBUG Put everything together and polish the details
 
-#### You will find the steps detailed in the article.
+#### You will find the steps detailed in the [article](http://www.barbararodeker.com/ladyandtech/?p=100).
 
